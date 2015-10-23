@@ -57,6 +57,7 @@
 
 -- 3. Create a query to list all make_code, model_code, model_title, and year from car_models where the make_code is 'LAM', and note the time somewhere. (should have 1360 rows)
 -- Time: 4031.701 ms
+-- CREATE INDEX model_title_idx ON car_models ( model_title );
 -- CREATE INDEX make_code_idx ON car_models ( make_code );
 -- Time: 3941.701 ms
 -- CREATE INDEX model_code_idx ON car_models ( model_code );
